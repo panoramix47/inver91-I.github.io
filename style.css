@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+	color: #000000;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+	font-weight: 400;
+}#nav ul {
+	text-decoration: none;
+	list-style: url(none) none;
+	font: 18px "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	text-transform: capitalize;
+}
+#nav {
+	width: 800px;
+	padding-left: 100px;
+	text-align: center;
+
+}
+
+#nav ul li {
+	float: left;
+	padding-right: 50px;
+}
+#nav ul li a {
+	font: 18px Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #000000;
+}
+#nav ul li a:hover {
+	font-weight: bold;
+	text-decoration: none;
+}
+#pie {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+table tbody tr {
+	color: rgba(138,138,138,1);
+	text-decoration: none;
+	border-bottom: thin solid rgba(188,188,188,1);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+}
+table tbody tr td {
+	color: #000000;
+	text-decoration: none;
+	border-bottom: thin solid rgba(203,203,203,1);
+}
+table tr td a {
+	text-decoration: none;
+	color: rgba(138,138,138,1);
+}
+#bio tbody tr td p {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 15px;
+	color: rgba(138,138,138,1);
+	text-align: justify;
+	padding-left: 20px;
+	vertical-align: top;
+}
+#mail {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #000000;
+	text-decoration: none;
+	font-style: normal;
+	font-weight: normal;
+}
